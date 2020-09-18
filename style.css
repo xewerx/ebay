@@ -1,0 +1,302 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-weight: 550;
+        padding: 0 2% 0 2%;
+        font-family: “Arial”, sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    /* HEADER SECTION */
+    
+    .overlaps {
+        background-color: white;
+    }
+    
+    .overlap1,
+    .overlap2 {
+        display: inline-block;
+        text-align: left;
+        color: #3d3d3d;
+        box-shadow: 6px 0px 2px 0px #00000029;
+        margin-right: 17px;
+        padding: 0.5% 2% 0 1%;
+        font-family: “Arial Bold”, sans-serif;
+    }
+    
+    .logo {
+        width: 14vw;
+        height: 12vh;
+        background: url('LOGO/RGB_logo.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        margin-top: 3vh;
+        margin-left: 3vw;
+    }
+    
+    .dearCustomer {
+        display: inline-block;
+        margin-top: 3vh;
+        margin-left: 30vw;
+        margin-right: 5vw;
+        font-family: “Arial Bold”, sans-serif;
+        font-size: 12px;
+    }
+    
+    .bar {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5vh;
+        width: 100%;
+        height: 4vh;
+        background-color: #3d3d3d;
+        line-height: 4vh;
+        padding: 1vh 0 1vh 0;
+        font-family: “Arial”, sans-serif;
+        position: relative;
+    }
+    
+    .bar>div {
+        display: inline-block;
+        color: white;
+    }
+    
+    .bar>div>span {
+        color: #8BC43F;
+    }
+    
+    .ebay {
+        margin-left: 3%;
+        margin-right: 1%;
+    }
+    
+    .reviews {
+        border-left: 3px solid;
+        padding-left: 1%;
+    }
+    
+    .phone {
+        position: absolute;
+        right: 3%;
+    }
+    /* ICONS */
+    
+    .advantages {
+        width: 95%;
+        height: 8vh;
+        display: inline-flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-family: “Arial”, sans-serif;
+        margin-top: 2vh;
+        margin-left: 2.5%;
+    }
+    
+    .advantages>div {
+        height: 8vh;
+        text-align: center;
+        display: inline-flex;
+    }
+    
+    .describe {
+        width: 200px;
+        height: 8vh;
+        align-items: center;
+        display: flex;
+        margin-left: 0.7vw;
+    }
+    
+    .advantages>div>div:nth-child(odd) {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 30%;
+        height: 6vh;
+        margin-top: 1vh;
+    }
+    
+    .testedIcon {
+        background: url('IKONY/klucz_icon.png');
+    }
+    
+    .moneyIcon {
+        background: url('IKONY/zwrot_icon.png');
+    }
+    
+    .deliveryIcon {
+        background: url('IKONY/dostawa-swiat_icon.png');
+    }
+    
+    .productsIcon {
+        background: url('IKONY/magazyn_icon.png');
+    }
+    /* LANGUAGE */
+    
+    .language {
+        width: 40%;
+        height: 4vh;
+        line-height: 4vh;
+        margin-top: 2vh;
+        margin-left: 2.5%;
+        font-family: “Arial”, sans-serif;
+    }
+    
+    .flags {
+        width: 50%;
+        height: 100%;
+        display: inline-flex;
+    }
+    
+    .flags>div {
+        display: inline-block;
+        width: 7vw;
+        text-align: center;
+        border: 1px solid #8BC43F;
+    }
+    
+    .english {
+        border-radius: 120px 0px 0px 120px;
+        margin-left: 5%;
+    }
+    
+    .german {
+        border-radius: 0px 120px 120px 0px;
+        background-color: #8BC43F;
+        color: white;
+    }
+    /*MAIN CONTENT*/
+    /*LEFT SIDE*/
+    
+    .mainContent {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 2vh;
+    }
+    
+    .left {
+        width: 15%;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        margin: 0 0 2vh 0;
+    }
+    
+    .title {
+        text-align: center;
+        background-color: #8BC43F;
+        border: 1px solid #8BC43F;
+        border-radius: 20px 20px 0px 0px;
+        height: 4vh;
+        line-height: 4vh;
+        color: white;
+        box-shadow: 0px 3px 6px #00000029;
+        font-size: 14px;
+        margin-top: 3vh;
+    }
+    
+    .list {
+        background-color: white;
+        box-shadow: 0px 3px 6px #00000029;
+        display: flex;
+        font-size: 12px;
+    }
+    
+    .imageDelivery {
+        width: 70%;
+        height: 30vh;
+        background: url('IKONY/delivery-across-the-world.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+    }
+    /*///////////////////////////////////////////////*/
+    
+    .center {
+        width: 70%;
+        height: 1000px;
+        background-color: gray;
+    }
+    /*RIGHT SIDE*/
+    
+    .right {
+        width: 15%;
+    }
+    
+    .paddingStars {
+        height: 6vh;
+    }
+    
+    .stars {
+        background: url('IKONY/gwiazdki.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 50%;
+        height: 3vh;
+        position: relative;
+        left: 25%;
+        top: 1.5vh;
+    }
+    
+    .listSkype {
+        display: block;
+        text-align: center;
+        padding: 5%;
+    }
+    
+    .mainContent span {
+        display: block;
+        margin-top: 2vh;
+        text-align: left;
+        font-size: 10px;
+        font-family: “Arial”, sans-serif;
+        font-weight: 0;
+        color: #707070;
+    }
+    
+    .skype {
+        width: 80%;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .paymentLogo {
+        background: url('IKONY/payment.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 7vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .listPayment {
+        display: block;
+        padding: 7%;
+    }
+    
+    .shippingLogo {
+        background: url('IKONY/DHL UPS.PNG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 7vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    b {
+        font-weight: 700;
+        color: black;
+    }
