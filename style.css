@@ -1,302 +1,678 @@
-    body {
-        padding: 0;
-        margin: 0;
-        font-weight: 550;
-        padding: 0 2% 0 2%;
-        font-family: “Arial”, sans-serif;
-    }
-    
-    .container {
-        width: 100%;
-        height: auto;
-        padding: 0;
-    }
-    /* HEADER SECTION */
-    
-    .overlaps {
-        background-color: white;
-    }
-    
-    .overlap1,
-    .overlap2 {
-        display: inline-block;
-        text-align: left;
-        color: #3d3d3d;
-        box-shadow: 6px 0px 2px 0px #00000029;
-        margin-right: 17px;
-        padding: 0.5% 2% 0 1%;
-        font-family: “Arial Bold”, sans-serif;
-    }
-    
-    .logo {
-        width: 14vw;
-        height: 12vh;
-        background: url('LOGO/RGB_logo.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        display: inline-block;
-        margin-top: 3vh;
-        margin-left: 3vw;
-    }
-    
-    .dearCustomer {
-        display: inline-block;
-        margin-top: 3vh;
-        margin-left: 30vw;
-        margin-right: 5vw;
-        font-family: “Arial Bold”, sans-serif;
-        font-size: 12px;
-    }
-    
-    .bar {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5vh;
-        width: 100%;
-        height: 4vh;
-        background-color: #3d3d3d;
-        line-height: 4vh;
-        padding: 1vh 0 1vh 0;
-        font-family: “Arial”, sans-serif;
-        position: relative;
-    }
-    
-    .bar>div {
-        display: inline-block;
-        color: white;
-    }
-    
-    .bar>div>span {
-        color: #8BC43F;
-    }
-    
-    .ebay {
-        margin-left: 3%;
-        margin-right: 1%;
-    }
-    
-    .reviews {
-        border-left: 3px solid;
-        padding-left: 1%;
-    }
-    
-    .phone {
-        position: absolute;
-        right: 3%;
-    }
-    /* ICONS */
-    
-    .advantages {
-        width: 95%;
-        height: 8vh;
-        display: inline-flex;
-        justify-content: space-between;
-        font-size: 16px;
-        font-family: “Arial”, sans-serif;
-        margin-top: 2vh;
-        margin-left: 2.5%;
-    }
-    
-    .advantages>div {
-        height: 8vh;
-        text-align: center;
-        display: inline-flex;
-    }
-    
-    .describe {
-        width: 200px;
-        height: 8vh;
-        align-items: center;
-        display: flex;
-        margin-left: 0.7vw;
-    }
-    
-    .advantages>div>div:nth-child(odd) {
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        width: 30%;
-        height: 6vh;
-        margin-top: 1vh;
-    }
-    
-    .testedIcon {
-        background: url('IKONY/klucz_icon.png');
-    }
-    
-    .moneyIcon {
-        background: url('IKONY/zwrot_icon.png');
-    }
-    
-    .deliveryIcon {
-        background: url('IKONY/dostawa-swiat_icon.png');
-    }
-    
-    .productsIcon {
-        background: url('IKONY/magazyn_icon.png');
-    }
-    /* LANGUAGE */
-    
-    .language {
-        width: 40%;
-        height: 4vh;
-        line-height: 4vh;
-        margin-top: 2vh;
-        margin-left: 2.5%;
-        font-family: “Arial”, sans-serif;
-    }
-    
-    .flags {
-        width: 50%;
-        height: 100%;
-        display: inline-flex;
-    }
-    
-    .flags>div {
-        display: inline-block;
-        width: 7vw;
-        text-align: center;
-        border: 1px solid #8BC43F;
-    }
-    
-    .english {
-        border-radius: 120px 0px 0px 120px;
-        margin-left: 5%;
-    }
-    
-    .german {
-        border-radius: 0px 120px 120px 0px;
-        background-color: #8BC43F;
-        color: white;
-    }
-    /*MAIN CONTENT*/
-    /*LEFT SIDE*/
-    
-    .mainContent {
-        display: inline-flex;
-        width: 100%;
-        margin-top: 2vh;
-    }
-    
-    .left {
-        width: 15%;
-    }
-    
-    ul {
-        list-style-type: none;
-    }
-    
-    li {
-        margin: 0 0 2vh 0;
-    }
-    
-    .title {
-        text-align: center;
-        background-color: #8BC43F;
-        border: 1px solid #8BC43F;
-        border-radius: 20px 20px 0px 0px;
-        height: 4vh;
-        line-height: 4vh;
-        color: white;
-        box-shadow: 0px 3px 6px #00000029;
-        font-size: 14px;
-        margin-top: 3vh;
-    }
-    
-    .list {
-        background-color: white;
-        box-shadow: 0px 3px 6px #00000029;
-        display: flex;
-        font-size: 12px;
-    }
-    
-    .imageDelivery {
-        width: 70%;
-        height: 30vh;
-        background: url('IKONY/delivery-across-the-world.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5vh;
-    }
-    /*///////////////////////////////////////////////*/
-    
-    .center {
-        width: 70%;
-        height: 1000px;
-        background-color: gray;
-    }
-    /*RIGHT SIDE*/
-    
-    .right {
-        width: 15%;
-    }
-    
-    .paddingStars {
-        height: 6vh;
-    }
-    
-    .stars {
-        background: url('IKONY/gwiazdki.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        width: 50%;
-        height: 3vh;
-        position: relative;
-        left: 25%;
-        top: 1.5vh;
-    }
-    
-    .listSkype {
-        display: block;
-        text-align: center;
-        padding: 5%;
-    }
-    
-    .mainContent span {
-        display: block;
-        margin-top: 2vh;
-        text-align: left;
-        font-size: 10px;
-        font-family: “Arial”, sans-serif;
-        font-weight: 0;
-        color: #707070;
-    }
-    
-    .skype {
-        width: 80%;
-        font-size: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .paymentLogo {
-        background: url('IKONY/payment.png');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        width: 100%;
-        height: 7vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .listPayment {
-        display: block;
-        padding: 7%;
-    }
-    
-    .shippingLogo {
-        background: url('IKONY/DHL UPS.PNG');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        width: 100%;
-        height: 7vh;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    b {
-        font-weight: 700;
-        color: black;
-    }
+        body {
+            margin: 0;
+            font-weight: 550;
+            padding: 0 2% 0 2%;
+            font-family: “Arial”, sans-serif;
+        }
+        
+        .container {
+            width: 100%;
+            height: auto;
+            padding: 0;
+        }
+        
+        .mobileMain {
+            display: none;
+        }
+        
+        .imageDeliveryMobile {
+            display: none;
+        }
+        /* HEADER SECTION */
+        
+        .overlaps {
+            background-color: white;
+        }
+        
+        .overlap1,
+        .overlap2 {
+            display: inline-block;
+            text-align: left;
+            color: #3d3d3d;
+            box-shadow: 6px 0px 2px 0px #00000029;
+            margin-right: 17px;
+            padding: 0.5% 2% 0 1%;
+            font-family: “Arial Bold”, sans-serif;
+        }
+        
+        .logo {
+            width: 14vw;
+            height: 12vh;
+            background: url('LOGO/RGB_logo.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            display: inline-block;
+            margin-top: 3vh;
+            margin-left: 3vw;
+        }
+        
+        .dearCustomer {
+            display: inline-block;
+            margin-top: 3vh;
+            margin-left: 30vw;
+            margin-right: 5vw;
+            font-family: “Arial Bold”, sans-serif;
+            font-size: 12px;
+        }
+        
+        .bar {
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 5vh;
+            width: 100%;
+            height: 4vh;
+            background-color: #3d3d3d;
+            line-height: 4vh;
+            padding: 1vh 0 1vh 0;
+            font-family: “Arial”, sans-serif;
+            position: relative;
+        }
+        
+        .bar>div {
+            display: inline-block;
+            color: white;
+        }
+        
+        .bar>div>span {
+            color: #8BC43F;
+        }
+        
+        .ebay {
+            margin-left: 3%;
+            margin-right: 1%;
+        }
+        
+        .reviews {
+            border-left: 3px solid;
+            padding-left: 1%;
+        }
+        
+        .phone {
+            position: absolute;
+            right: 3%;
+        }
+        /* ICONS */
+        
+        .advantages {
+            width: 95%;
+            height: 8vh;
+            display: inline-flex;
+            justify-content: space-between;
+            font-size: 16px;
+            font-family: “Arial”, sans-serif;
+            margin-top: 2vh;
+            margin-left: 2.5%;
+        }
+        
+        .advantages>div {
+            height: 8vh;
+            text-align: center;
+            display: inline-flex;
+        }
+        
+        .describe {
+            width: 200px;
+            height: 8vh;
+            align-items: center;
+            display: flex;
+            margin-left: 0.7vw;
+        }
+        
+        .advantages>div>div:nth-child(odd) {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 30%;
+            height: 6vh;
+            margin-top: 1vh;
+        }
+        
+        .testedIcon {
+            background: url('IKONY/klucz_icon.png');
+        }
+        
+        .moneyIcon {
+            background: url('IKONY/zwrot_icon.png');
+        }
+        
+        .deliveryIcon {
+            background: url('IKONY/dostawa-swiat_icon.png');
+        }
+        
+        .productsIcon {
+            background: url('IKONY/magazyn_icon.png');
+        }
+        /* LANGUAGE */
+        
+        .language {
+            width: 40%;
+            height: 4vh;
+            line-height: 4vh;
+            margin-top: 2vh;
+            margin-left: 2.5%;
+            font-family: “Arial”, sans-serif;
+        }
+        
+        .flags {
+            width: 50%;
+            height: 100%;
+            display: inline-flex;
+        }
+        
+        .flags>div {
+            display: inline-block;
+            width: 7vw;
+            text-align: center;
+            border: 1px solid #8BC43F;
+        }
+        
+        .english {
+            border-radius: 120px 0px 0px 120px;
+            margin-left: 5%;
+        }
+        
+        .german {
+            border-radius: 0px 120px 120px 0px;
+            background-color: #8BC43F;
+            color: white;
+        }
+        /*MAIN CONTENT*/
+        /*LEFT SIDE*/
+        
+        .mainContent {
+            display: inline-flex;
+            width: 100%;
+            margin-top: 2vh;
+        }
+        
+        .left {
+            width: 15%;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        li {
+            margin: 0 0 2vh 0;
+        }
+        
+        .title {
+            text-align: center;
+            background-color: #8BC43F;
+            border: 1px solid #8BC43F;
+            border-radius: 20px 20px 0px 0px;
+            height: 4vh;
+            line-height: 4vh;
+            color: white;
+            box-shadow: 0px 3px 6px #00000029;
+            font-size: 14px;
+            margin-top: 3vh;
+        }
+        
+        .list {
+            background-color: white;
+            box-shadow: 0px 3px 6px #00000029;
+            display: flex;
+            font-size: 12px;
+        }
+        
+        .imageDelivery {
+            width: 70%;
+            height: 30vh;
+            background: url('IKONY/delivery-across-the-world.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5vh;
+        }
+        /*CENTER SIDE*/
+        
+        .center {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        .productImage {
+            width: 40%;
+            height: 27vh;
+            background: url('IKONY/Image\ 2.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: 3vh;
+        }
+        
+        .productDescribe {
+            width: 40%;
+            color: #3d3d3d;
+            font-size: 12px;
+        }
+        
+        .productDescribe h3 {
+            font-size: 20px;
+            margin-top: 3vh;
+        }
+        
+        .productDescribe b {
+            font-size: 16px;
+            color: #3d3d3d;
+        }
+        
+        .iconsAndDescribes {
+            width: 40%;
+            font-size: 16px;
+            color: #3D3D3D;
+            margin-top: 7vh;
+        }
+        
+        .line {
+            margin-top: 3vh;
+            height: 5vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .line div {
+            width: 12%;
+            height: 5vh;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-right: 1vw;
+        }
+        
+        .icon1 {
+            background: url('IKONY/dostawa_europa.png');
+        }
+        
+        .icon2 {
+            background: url('IKONY/darmowa_dostawa.png');
+        }
+        
+        .icon3 {
+            background: url('IKONY/24_gwarancja.png');
+        }
+        
+        .icon4 {
+            background: url('IKONY/przemysl_oferta.png');
+        }
+        
+        .warehouseImage {
+            width: 80%;
+            height: 15vh;
+            background: url('FOTO/magazyn.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: 12vh;
+        }
+        
+        .retAndShip {
+            width: 40%;
+            margin-top: 3vh;
+        }
+        
+        .lineRet {
+            display: flex;
+            align-items: center;
+            margin-top: 3vh;
+            width: 100%;
+        }
+        
+        .iconRet {
+            width: 16%;
+            height: 8.5vh;
+            background: url('IKONY/zwrot_30-dni.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-right: 1vw;
+        }
+        
+        .iconRet2 {
+            background: url('IKONY/dostawa_paleta.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        
+        .textRet {
+            width: 70%;
+            font-size: 10px;
+            color: #707070;
+            font-weight: 100;
+        }
+        
+        .safeDelivery {
+            width: 80%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            margin-top: 7vh;
+        }
+        
+        .safeDeliveryImg {
+            background: url('FOTO/transport.PNG');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 40%;
+            height: 30vh;
+        }
+        
+        .safeText {
+            width: 30%;
+            font-size: 10px;
+            color: #707070;
+            font-weight: 100;
+        }
+        /*RIGHT SIDE*/
+        
+        .right {
+            width: 15%;
+        }
+        
+        .paddingStars {
+            height: 6vh;
+        }
+        
+        .stars {
+            background: url('IKONY/gwiazdki.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 50%;
+            height: 3vh;
+            position: relative;
+            left: 25%;
+            top: 1.5vh;
+        }
+        
+        .listSkype {
+            display: block;
+            text-align: center;
+            padding: 5%;
+        }
+        
+        .mainContent span {
+            display: block;
+            margin-top: 2vh;
+            text-align: left;
+            font-size: 10px;
+            font-family: “Arial”, sans-serif;
+            font-weight: 0;
+            color: #707070;
+        }
+        
+        .skype {
+            width: 80%;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .paymentLogo {
+            background: url('IKONY/payment.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 7vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .listPayment {
+            display: block;
+            padding: 7%;
+        }
+        
+        .listPayment span {
+            margin-top: 0;
+        }
+        
+        .shippingLogo {
+            background: url('IKONY/DHL UPS.PNG');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 7vh;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        b {
+            font-weight: 700;
+            color: black;
+        }
+        
+        @media (max-width: 1365px) {
+            .dearCustomer {
+                margin-left: 20vw;
+            }
+            .skype img {
+                width: 30px;
+            }
+        }
+        
+        @media (max-width: 1265px) {
+            .flags {
+                font-size: 0;
+            }
+            .flags img {
+                width: 30px;
+                height: 18px;
+                margin-top: 10%;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .skype {
+                width: 100%;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .iconsAndDescribes {
+                font-size: 13px;
+            }
+        }
+        
+        @media (max-width: 1110px) {
+            .dearCustomer {
+                margin-left: 15vw;
+            }
+            .language {
+                width: 70%;
+            }
+        }
+        /*MAIN RESPONSIVE CODE*/
+        
+        @media (max-width: 1015px) {
+            body {
+                padding: 0;
+            }
+            .mobileMain {
+                display: block;
+            }
+            .hide {
+                display: none;
+            }
+            /*HEADER*/
+            .mobilePhone {
+                width: 90%;
+                order: 3;
+                margin-top: 2vh;
+                margin-left: 3vw;
+            }
+            .mobilePhone span {
+                color: #8BC43F;
+            }
+            .mobileLanguage {
+                position: absolute;
+                right: 5%;
+            }
+            .mobileLanguage img:first-child {
+                border: 1px solid #8BC43F;
+            }
+            .language {
+                display: none;
+            }
+            .imageDeliveryMobile {
+                display: block;
+                width: 90%;
+                height: 17vh;
+                background: url('IKONY/delivery-across-the-world_2.png');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 7vh;
+            }
+            .overlaps {
+                display: none;
+            }
+            .header {
+                display: flex;
+                flex-direction: column;
+            }
+            .logo {
+                order: 2;
+                width: 22vw;
+            }
+            .dearCustomer {
+                order: 1;
+                margin-left: 3vw;
+            }
+            /*MAIN CONTENT*/
+            .left,
+            .right {
+                display: none;
+            }
+            .center {
+                width: 100%;
+            }
+            .mobileMain {
+                width: 100%;
+            }
+            .tittleMobile {
+                width: 100%;
+                height: 7vh;
+                background-color: #8BC43F;
+                margin-bottom: 1vh;
+                margin-top: 1vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .tittleMobile span {
+                margin: 0 0 0 5%;
+                color: white;
+                font-size: 16px;
+            }
+            .tittleMobile img {
+                margin: 0 5% 0 0;
+            }
+            .list {
+                width: 100%;
+                box-shadow: none;
+            }
+            .stars {
+                width: 40%;
+                position: static;
+            }
+            .skype {
+                width: 80%;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #3d3d3d;
+                padding: 3%;
+            }
+            .skype img {
+                width: 50px;
+            }
+            .paymentLogo {
+                width: 60%;
+            }
+            .listPayment {
+                padding: 5% 0 5% 5%;
+                width: auto;
+            }
+            .shippingLogo {
+                width: 50%;
+                height: 17vh;
+            }
+            .listSkype {
+                padding: 0;
+            }
+        }
+        
+        @media (max-width: 865px) {
+            .phone {
+                opacity: 0;
+            }
+            .advantages {
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .center {
+                flex-direction: column;
+            }
+            .center div {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .productImage {
+                width: 80%;
+            }
+            .productDescribe {
+                width: 80%;
+            }
+            .iconsAndDescribes {
+                width: 50%;
+            }
+            .line {
+                margin-top: 3vh;
+                height: 5vh;
+            }
+            .line div {
+                margin-left: 0;
+                margin-right: 1vw;
+            }
+            .warehouseImage {
+                width: 100%;
+            }
+            .retAndShip {
+                width: 60%;
+            }
+            .safeDelivery {
+                width: 80%;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+            .safeDeliveryImg {
+                width: 80%;
+                order: 1;
+            }
+            .safeText {
+                width: 80%;
+                order: 2;
+                margin-bottom: 7vh;
+            }
+        }
+        
+        @media (max-width: 435px) {
+            .describe {
+                width: 150px;
+                font-size: 12px;
+            }
+            .advantages>div>div:nth-child(odd) {
+                width: 20%;
+                height: 4vh;
+            }
+            .mobileLanguage {
+                margin-top: 10px;
+            }
+        }
