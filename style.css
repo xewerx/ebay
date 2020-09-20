@@ -18,6 +18,10 @@
         .imageDeliveryMobile {
             display: none;
         }
+        
+        .mobilePhone {
+            display: none;
+        }
         /* HEADER SECTION */
         
         .overlaps {
@@ -499,6 +503,7 @@
             }
             /*HEADER*/
             .mobilePhone {
+                display: block;
                 width: 90%;
                 order: 3;
                 margin-top: 2vh;
@@ -635,11 +640,13 @@
             }
             .line {
                 margin-top: 3vh;
-                height: 5vh;
+                width: 70vw;
             }
             .line div {
                 margin-left: 0;
                 margin-right: 1vw;
+                width: 17%;
+                height: 5vh;
             }
             .warehouseImage {
                 width: 100%;
@@ -661,6 +668,12 @@
                 order: 2;
                 margin-bottom: 7vh;
             }
+            .logo {
+                width: 50%;
+            }
+            .icon2 {
+                width: 47px;
+            }
         }
         
         @media (max-width: 435px) {
@@ -674,5 +687,8 @@
             }
             .mobileLanguage {
                 margin-top: 10px;
+            }
+            .logo {
+                width: 50%;
             }
         }

@@ -158,7 +158,7 @@
                 <div class="mobileMain">
                     <div class="tittleMobile">
                         <span>About us</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide list text listPayment">
                         <span>
@@ -178,7 +178,7 @@
 
                     <div class="tittleMobile">
                         <span>Device categories</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide list">
                         <ul>
@@ -198,7 +198,7 @@
 
                     <div class="tittleMobile">
                         <span>Customers opinion</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide list paddingStars">
                         <div class="stars"></div>
@@ -207,7 +207,7 @@
 
                     <div class="tittleMobile">
                         <span>Do you need our help?</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide list listSkype">
                         <div class="skype"><img src="FOTO/skype_basia.png" width="50">&nbsp;barbara.litwinowicz</div>
@@ -218,7 +218,7 @@
 
                     <div class="tittleMobile">
                         <span>Payment</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide listPayment list">
                         <div class="paymentLogo"></div>
@@ -229,7 +229,7 @@
 
                     <div class="tittleMobile">
                         <span>Shipping</span>
-                        <img src="IKONY/arrowU.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
                     </div>
                     <div class="hide listPayment list">
                         <div class="shippingLogo "></div>
@@ -322,13 +322,23 @@
     <script>
         const elements = document.querySelectorAll(".hide");
         const tittle = document.querySelectorAll(".tittleMobile");
+        const arrows = document.querySelectorAll(".arrow");
+        let isUpArrow = [false, false, false, false, false, false];
+
         for (let i = 0; i < 6; i++) {
+
             tittle[i].addEventListener("click", () => {
                 elements[i].classList.toggle("hide");
-                console.log("klik")
+                if (isUpArrow[i] === false) {
+
+                    arrows[i].src = "IKONY/arrowU.svg";
+                    isUpArrow[i] = true;
+                } else {
+                    arrows[i].src = "IKONY/arrowD.svg";
+                    isUpArrow[i] = false;
+                }
             })
         }
-        console.log(tittle);
     </script>
 
 
