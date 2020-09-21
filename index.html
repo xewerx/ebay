@@ -10,8 +10,28 @@
 </head>
 
 <body>
+    <style>
+        input:checked:first-of-type~.containerEng {
+            display: block;
+        }
+        
+        input:checked:last-of-type~.containerEng {
+            display: none;
+        }
+        
+        input:checked:last-of-type~.containerDeu {
+            display: block;
+        }
+    </style>
 
-    <div class="container">
+
+    <input type="radio" class="radio_lang_en" name="radio-set" value="weight" id="sizeWeight" checked="checked" />
+    <label for="sizeWeight"><img src="FLAGI/United_Kingdom_flag.png" width="20">&nbsp;English</label>
+    <input type="radio" class="radio_lang_de" name="radio-set" value="dimensions" id="sizeDimensions" />
+    <label for="sizeDimensions"><img src="FLAGI/Germany_flag.png" width="20">&nbsp;Deutsch</label>
+
+    <div class="containerEng">
+        ENG
         <header>
             <div class="overlaps">
                 <div class="overlap1">Description</div>
@@ -19,23 +39,15 @@
             </div>
             <div class="header">
                 <div class="logo"></div>
-                <div class="dearCustomer">Dear customers,<br>RGB Elektronika is at your disposal despite the current situation.<br>We know how important time is in the industry, which is why we have implemented the highest safety<br>standards for you.<br>We remain at your disposal
+                <div class="dearCustomer">Dear customers,<br>RGB Elektronika is at your disposal despite the current situation.<br>We know how important time is in the industry, which is why we have implemented the highest safety standards for you.<br>We remain at your disposal
                     and wish you a lot of health,<br>RGB Elektronika Team
                 </div>
                 <!--MOBILE VIEW-->
-                <div class="mobilePhone">
-                    <span>Hotline 24/7:</span> +48 713 251 505<br>
-                    <span>Write to us:</span> biuro@rgbelektronika.pl
-                    <div class="mobileLanguage">
-                        Select:
-                        <img src="FLAGI/United_Kingdom_flag.png" width="20">&nbsp;
-                        <img src="FLAGI/Germany_flag.png" width="20">
-                    </div>
-                </div>
+
             </div>
             <div class="bar">
                 <div class="ebay">Ebay Shop</div>
-                <div class="reviews">Reviews</div>
+                <div class="reviews">&nbsp;Reviews</div>
                 <div class="phone"><span>Hotline 24/7:</span>+48 713 251 505&emsp;&emsp;
                     <span>Write to us:</span> biuro@rgbelektronika.pl
                 </div>
@@ -63,18 +75,7 @@
 
         <div class="imageDeliveryMobile"></div>
 
-        <div class="language">
-            <span>Change auction language:</span>
-            <div class="flags">
-                <div class="english">
-                    <img src="FLAGI/United_Kingdom_flag.png" width="20">&nbsp;English
-                </div>
-                <div class="german">
-                    <img src="FLAGI/Germany_flag.png" width="20">&nbsp;Deutsch
-                </div>
-            </div>
-        </div>
-
+        <span class="language">Change auction language: </span>
 
         <div class="mainContent">
             <div class="left">
@@ -99,10 +100,13 @@
             </div>
 
             <div class="center">
+                <div class="productTittle">
+                    <h3>CONTROLLER BUS6-VC-EE-0001<br>ART.NR. 325766 BUS 6V BAUMULLER</h3>
+                </div>
                 <div class="productImage"></div>
                 <div class="productDescribe">
-                    <h3>CONTROLLER BUS6-VC-EE-0001<br>ART.NR. 325766 BUS 6V BAUMULLER</h3><br><br>
-                    <b>Manufacturer: </b>BAUMULLER<br><br>
+                    <h3>CONTROLLER BUS6-VC-EE-0001<br>ART.NR. 325766 BUS 6V BAUMULLER</h3><br><br><br>
+                    <b>Manufacturer: </b>BAUMULLER<br><br><br>
                     <b>Status: </b>USED<br><br><br>
                     <b>Specification:</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue leo, molestie a ex sed, facilisis luctus libero. Praesent faucibus justo quis nisl facilisis semper. Proin cursus felis tellus,<br><br><br>
                     <b>Description:</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue leo, molestie a ex sed, facilisis luctus libero. Praesent faucibus justo quis nisl facilisis semper. Proin cursus felis tellus, eget mattis
@@ -112,19 +116,23 @@
                 <div class="iconsAndDescribes">
                     <div class="line">
                         <div class="icon1"></div>
-                        Delivery across Europe even in 24h
+                        <div class="lineText">DELIVERY ACROSS EUROPE EVEN IN 24H</div>
+
                     </div>
                     <div class="line">
                         <div class="icon2"></div>
-                        Free shipping at 300€ for the EU countries
+                        <div class="lineText">FREE SHIPPING AT 300€ FOR THE EU COUNTRIES</div>
+
                     </div>
                     <div class="line">
                         <div class="icon3"></div>
-                        24-month guarantee
+                        <div class="lineText">24-MONTH GUARANTEE</div>
+
                     </div>
                     <div class="line">
                         <div class="icon4"></div>
-                        The entire industry in our offer
+                        <div class="lineText">THE ENTIRE INDUSTRY IN OUR OFFER</div>
+
                     </div>
                 </div>
 
@@ -158,7 +166,7 @@
                 <div class="mobileMain">
                     <div class="tittleMobile">
                         <span>About us</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide list text listPayment">
                         <span>
@@ -178,7 +186,7 @@
 
                     <div class="tittleMobile">
                         <span>Device categories</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide list">
                         <ul>
@@ -198,7 +206,7 @@
 
                     <div class="tittleMobile">
                         <span>Customers opinion</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide list paddingStars">
                         <div class="stars"></div>
@@ -207,7 +215,7 @@
 
                     <div class="tittleMobile">
                         <span>Do you need our help?</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide list listSkype">
                         <div class="skype"><img src="FOTO/skype_basia.png" width="50">&nbsp;barbara.litwinowicz</div>
@@ -218,7 +226,7 @@
 
                     <div class="tittleMobile">
                         <span>Payment</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide listPayment list">
                         <div class="paymentLogo"></div>
@@ -229,7 +237,290 @@
 
                     <div class="tittleMobile">
                         <span>Shipping</span>
-                        <img class="arrow" src="IKONY/arrowD.svg" width="20">
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide listPayment list">
+                        <div class="shippingLogo "></div>
+                        <div class="text">
+                            <h5>DELIVERY PROCESS AND TIME </h5> <span>Check the time and cost of delivery tab "Shipping and payment methods"</span></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="right">
+
+                <div class="opinion">
+                    <div class="title">Customer opinion</div>
+                    <div class="list paddingStars">
+                        <div class="stars"></div>
+                    </div>
+                </div>
+
+                <div class="help">
+                    <div class="title">Do you need our help?</div>
+                    <div class="list listSkype">
+                        <div class="skype"><img src="FOTO/skype_basia.png" width="50">&nbsp;barbara.litwinowicz</div>
+                        <div class="skype"><img src="FOTO/skype_krzys.png" width="50">&nbsp;krzysztof.przydatek</div>
+                        <span>If you have any further questions, please contact our customer service. We are on your call.</span>
+                    </div>
+                </div>
+
+                <div class="payment">
+                    <div class="title">Payment</div>
+                    <div class="listPayment list">
+                        <div class="paymentLogo"></div>
+                        <div class="text">
+                            <h5>VAT</h5> <span>Buyers from Poland and private buyers EU have to pay 23% VAT. You're welcome contact us before buying / paying, so that we can bill you. All prices on our auction without tax.</span></div>
+                    </div>
+                </div>
+
+                <div class="shipping">
+                    <div class="title">Shipping</div>
+                    <div class="listPayment list">
+                        <div class="shippingLogo "></div>
+                        <div class="text">
+                            <h5>DELIVERY PROCESS AND TIME </h5> <span>Check the time and cost of delivery tab "Shipping and payment methods"</span></div>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <div class="title">About us</div>
+                    <div class="list text listPayment">
+                        <span>
+                        <b>RGB Elektronika Spółka z ograniczoną odpowiedzialnością Sp. k.</b><br><br>
+                        ul. Jana Długosza 2-6<br>
+                        51-162 Wrocław<br><br><br>
+                        <b>NIP:</b> PL895 198 50 34<br>
+                        <b>REGON:</b> 021407892<br>
+                        <b>KRS:</b> 0000750271<br><br>
+                        <b>ACCOUNT NUMBER:</b><br><br>
+                        <b>EUR:</b> PL 70 1750 1064 0000 0000 1362 5848<br>
+                        <b>USD:</b> PL 20 1750 1064 0000 0000 2051 6755<br>
+                        <b>BIC/SWIFT:</b> PPABPLPKXXX<br>
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LANGUAGE CHANGE -->
+
+    <div class="containerDeu">
+        DEUTSCH
+        <header>
+            <div class="overlaps">
+                <div class="overlap1">Description</div>
+                <div class="overlap2">Shipping and payment methods</div>
+            </div>
+            <div class="header">
+                <div class="logo"></div>
+                <div class="dearCustomer">Dear customers,<br>RGB Elektronika is at your disposal despite the current situation.<br>We know how important time is in the industry, which is why we have implemented the highest safety standards for you.<br>We remain at your disposal
+                    and wish you a lot of health,<br>RGB Elektronika Team
+                </div>
+            </div>
+            <div class="bar">
+                <div class="ebay">Ebay Shop</div>
+                <div class="reviews">&nbsp;Reviews</div>
+                <div class="phone"><span>Hotline 24/7:</span>+48 713 251 505&emsp;&emsp;
+                    <span>Write to us:</span> biuro@rgbelektronika.pl
+                </div>
+            </div>
+        </header>
+
+        <div class="advantages">
+            <div class="tested">
+                <div class="testedIcon"></div>
+                <div class="describe">100% fully tested products</div>
+            </div>
+            <div class="money">
+                <div class="moneyIcon"></div>
+                <div class="describe">Money back guarantee</div>
+            </div>
+            <div class="delivery">
+                <div class="deliveryIcon"></div>
+                <div class="describe">Express delivery across the world</div>
+            </div>
+            <div class="products">
+                <div class="productsIcon"></div>
+                <div class="describe">All products available in stock</div>
+            </div>
+        </div>
+
+        <div class="imageDeliveryMobile"></div>
+
+        <span class="language">Change auction language: </span>
+
+        <div class="mainContent">
+            <div class="left">
+                <div class="device">
+                    <div class="title">Device categories</div>
+                    <div class="list">
+                        <ul>
+                            <li>Servoamplifiers and Inverters</li>
+                            <li>Industrial robots</li>
+                            <li>AC and DC motors</li>
+                            <li>Encoders and measuring systems</li>
+                            <li>Industrial computers</li>
+                            <li>PLC systems</li>
+                            <li>Operator panels</li>
+                            <li>Power modules and IGBTs</li>
+                            <li>Fans and batteries</li>
+                            <li>Cables, wires, plugs, connectors</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="imageDelivery"></div>
+            </div>
+
+            <div class="center">
+                <div class="productTittle">
+                    <h3>CONTROLLER BUS6-VC-EE-0001<br>ART.NR. 325766 BUS 6V BAUMULLER</h3>
+                </div>
+                <div class="productImage"></div>
+                <div class="productDescribe">
+                    <h3>CONTROLLER BUS6-VC-EE-0001<br>ART.NR. 325766 BUS 6V BAUMULLER</h3><br><br><br>
+                    <b>Manufacturer: </b>BAUMULLER<br><br><br>
+                    <b>Status: </b>USED<br><br><br>
+                    <b>Specification:</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue leo, molestie a ex sed, facilisis luctus libero. Praesent faucibus justo quis nisl facilisis semper. Proin cursus felis tellus,<br><br><br>
+                    <b>Description:</b><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue leo, molestie a ex sed, facilisis luctus libero. Praesent faucibus justo quis nisl facilisis semper. Proin cursus felis tellus, eget mattis
+                    ante iaculis porttitor. Nullam aliquet ultrices laoreet. Nullam arcu velit, finibus non venenatis id, ullamcorper at ligula. Pellentesque mattis sapien quis dolor efficitur finibus. Fusce a nulla
+                </div>
+
+                <div class="iconsAndDescribes">
+                    <div class="line">
+                        <div class="icon1"></div>
+                        <div class="lineText">DELIVERY ACROSS EUROPE EVEN IN 24H</div>
+
+                    </div>
+                    <div class="line">
+                        <div class="icon2"></div>
+                        <div class="lineText">FREE SHIPPING AT 300€ FOR THE EU COUNTRIES</div>
+
+                    </div>
+                    <div class="line">
+                        <div class="icon3"></div>
+                        <div class="lineText">24-MONTH GUARANTEE</div>
+
+                    </div>
+                    <div class="line">
+                        <div class="icon4"></div>
+                        <div class="lineText">THE ENTIRE INDUSTRY IN OUR OFFER</div>
+
+                    </div>
+                </div>
+
+                <div class="warehouseImage"></div>
+
+                <div class="retAndShip">
+                    <div class="lineRet">
+                        <div class="iconRet"></div>
+                        <div class="textRet">
+                            <h3>30 DAYS TO RETURN</h3> The product doesn't meet your needs? You can always return it within 30 days, without giving us any reason! You will find more details about return in the return section, located at the bottom of this
+                            auction.
+                        </div>
+                    </div>
+                    <div class="lineRet">
+                        <div class="iconRet2 iconRet"></div>
+                        <div class="textRet">
+                            <h3>PALLET SHIPPING</h3> The shipping price indicated in the offer is approximate - please contact us in order to determine the exact delivery costs.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="safeDelivery">
+                    <div class="safeDeliveryImg"></div>
+                    <div class="safeText">
+                        <h3>SAFE DELIVERY</h3>We use 3 types of packing:<br><br>Wooden chest - designed for servodrives ensures maximum safety with the use of special fixing. Instapak - polyurethane filling adjusts to the shape and size of transported device
+                        ensuring maximum protection. Customized transportation pallets - devices of uncommon shapes, sizes and weght are transported on customized transportation pallets, making the delivery as safe as possible.
+                    </div>
+                </div>
+                <!--- HERE IS MOBILE ELEMENTS --->
+
+                <div class="mobileMain">
+                    <div class="tittleMobile">
+                        <span>About us</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide list text listPayment">
+                        <span>
+                        <b>RGB Elektronika Spółka z ograniczoną odpowiedzialnością Sp. k.</b><br><br>
+                        ul. Jana Długosza 2-6<br>
+                        51-162 Wrocław<br><br><br>
+                        <b>NIP:</b> PL895 198 50 34<br>
+                        <b>REGON:</b> 021407892<br>
+                        <b>KRS:</b> 0000750271<br><br>
+                        <b>ACCOUNT NUMBER:</b><br><br>
+                        <b>EUR:</b> PL 70 1750 1064 0000 0000 1362 5848<br>
+                        <b>USD:</b> PL 20 1750 1064 0000 0000 2051 6755<br>
+                        <b>BIC/SWIFT:</b> PPABPLPKXXX<br>
+                    </span>
+                    </div>
+
+
+                    <div class="tittleMobile">
+                        <span>Device categories</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide list">
+                        <ul>
+                            <li>Servoamplifiers and Inverters</li>
+                            <li>Industrial robots</li>
+                            <li>AC and DC motors</li>
+                            <li>Encoders and measuring systems</li>
+                            <li>Industrial computers</li>
+                            <li>PLC systems</li>
+                            <li>Operator panels</li>
+                            <li>Power modules and IGBTs</li>
+                            <li>Fans and batteries</li>
+                            <li>Cables, wires, plugs, connectors</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tittleMobile">
+                        <span>Customers opinion</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide list paddingStars">
+                        <div class="stars"></div>
+                    </div>
+
+
+                    <div class="tittleMobile">
+                        <span>Do you need our help?</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide list listSkype">
+                        <div class="skype"><img src="FOTO/skype_basia.png" width="50">&nbsp;barbara.litwinowicz</div>
+                        <div class="skype"><img src="FOTO/skype_krzys.png" width="50">&nbsp;krzysztof.przydatek</div>
+                        <span>If you have any further questions, please contact our customer service.<br>We are on your call.</span>
+                    </div>
+
+
+                    <div class="tittleMobile">
+                        <span>Payment</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
+                    </div>
+                    <div class="hide listPayment list">
+                        <div class="paymentLogo"></div>
+                        <div class="text">
+                            <h5>VAT</h5> <span>Buyers from Poland and private buyers EU have to pay 23% VAT. You're welcome contact us before buying / paying, so that we can bill you. All prices on our auction without tax.</span></div>
+                    </div>
+
+
+                    <div class="tittleMobile">
+                        <span>Shipping</span>
+                        <img class="arrow" src="IKONY/arrowU.svg" width="20">
                     </div>
                     <div class="hide listPayment list">
                         <div class="shippingLogo "></div>
@@ -317,8 +608,6 @@
     </div>
 
 
-
-
     <script>
         const elements = document.querySelectorAll(".hide");
         const tittle = document.querySelectorAll(".tittleMobile");
@@ -331,10 +620,10 @@
                 elements[i].classList.toggle("hide");
                 if (isUpArrow[i] === false) {
 
-                    arrows[i].src = "IKONY/arrowU.svg";
+                    arrows[i].src = "IKONY/arrowD.svg";
                     isUpArrow[i] = true;
                 } else {
-                    arrows[i].src = "IKONY/arrowD.svg";
+                    arrows[i].src = "IKONY/arrowU.svg";
                     isUpArrow[i] = false;
                 }
             })
